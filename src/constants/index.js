@@ -17,12 +17,15 @@ import {
     docker,
     meta,
     starbucks,
+    phn,
+    internshala,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    bending,
   } from "../assets";
   
   export const navLinks = [
@@ -115,10 +118,25 @@ import {
   ];
   
   const experiences = [
+    
+    {
+      title: "Web Developer,CTO",
+      company_name: "Bending.TECH",
+      icon: bending,
+      iconBg: "#383E56",
+      date: "aug 2018 - Jan 2023",
+      points: [
+        "Co-founded bending.tech with a friend, providing web development services to 3 clients. Collaborated on a variety of projects, from e-commerce platforms to content management systems, honing my skills in [list specific technologies used]. Committed to delivering high-quality, user-friendly websites that exceed client expectations."
+
+   ],
+    },
+    
+    
+    
     {
       title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      company_name: "PHN Technology",
+      icon: phn,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
@@ -128,45 +146,32 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    
+    
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Core Java progam",
+      company_name: "Internshala",
+      icon: internshala,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "July 2022 - sep 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gained hands-on experience in core Java programming through an internship at Internhssla. Successfully completed projects and acquired new programming skills, laying a strong foundation for a career in software development."
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -216,7 +221,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      // source_code_link: "https://github.com/",
     },
     {
       name: "Job IT",
@@ -237,7 +242,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      // source_code_link: "https://github.com/",
     },
     {
       name: "Trip Guide",
@@ -258,7 +263,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      // source_code_link: "https://github.com/",
     },
   ];
   
