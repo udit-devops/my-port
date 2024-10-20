@@ -1,5 +1,6 @@
 {
-  "homepage": "https://udit-devops.github.io/my-port",
+
+  "homepage": "https://udit-devops.github.io/my-port" ,  
   "name": "my-port",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +8,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
