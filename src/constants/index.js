@@ -120,7 +120,7 @@ import {
   const experiences = [
     
     {
-      title: "Web Developer,CTO",
+      title: "Web Developer",
       company_name: "Bending.TECH",
       icon: bending,
       iconBg: "#383E56",
